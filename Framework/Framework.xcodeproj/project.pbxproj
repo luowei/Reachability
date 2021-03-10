@@ -11,8 +11,6 @@
 		86E2F0121B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86E2F0131B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
 		86E2F0141B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
-		EA7BB8F825F940ED00557232 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB8F625F940ED00557232 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA7BB8FC25F9410500557232 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +19,6 @@
 		86E2EFF21B4EE3DE002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2F00F1B4EE700002D66BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
 		86E2F0101B4EE700002D66BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
-		EA7BB8F425F940ED00557232 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA7BB8F625F940ED00557232 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		EA7BB8F725F940ED00557232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA7BB8F125F940ED00557232 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				86E2F00E1B4EE6D5002D66BB /* Framework */,
-				EA7BB8F525F940ED00557232 /* Reachability */,
 				86E2EFB41B4EE3A2002D66BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +52,6 @@
 			children = (
 				86E2EFD41B4EE3C9002D66BB /* Reachability.framework */,
 				86E2EFF21B4EE3DE002D66BB /* Reachability.framework */,
-				EA7BB8F425F940ED00557232 /* Reachability.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +64,6 @@
 				86E2EFD71B4EE3C9002D66BB /* Info.plist */,
 			);
 			name = Framework;
-			sourceTree = "<group>";
-		};
-		EA7BB8F525F940ED00557232 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				EA7BB8F625F940ED00557232 /* Reachability.h */,
-				EA7BB8F725F940ED00557232 /* Info.plist */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,14 +82,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				86E2F0121B4EE700002D66BB /* Reachability.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7BB8EF25F940ED00557232 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA7BB8F825F940ED00557232 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,24 +124,6 @@
 			productReference = 86E2EFF21B4EE3DE002D66BB /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EA7BB8F325F940ED00557232 /* Reachability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA7BB8FB25F940ED00557232 /* Build configuration list for PBXNativeTarget "Reachability" */;
-			buildPhases = (
-				EA7BB8EF25F940ED00557232 /* Headers */,
-				EA7BB8F025F940ED00557232 /* Sources */,
-				EA7BB8F125F940ED00557232 /* Frameworks */,
-				EA7BB8F225F940ED00557232 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Reachability;
-			productName = Reachability;
-			productReference = EA7BB8F425F940ED00557232 /* Reachability.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,11 +137,6 @@
 					};
 					86E2EFF11B4EE3DE002D66BB = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					EA7BB8F325F940ED00557232 = {
-						CreatedOnToolsVersion = 11.7;
-						DevelopmentTeam = G3A2KYKYBU;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -209,7 +155,6 @@
 			targets = (
 				86E2EFD31B4EE3C9002D66BB /* iOSReachability */,
 				86E2EFF11B4EE3DE002D66BB /* MacOSReachability */,
-				EA7BB8F325F940ED00557232 /* Reachability */,
 			);
 		};
 /* End PBXProject section */
@@ -223,13 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		86E2EFF01B4EE3DE002D66BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7BB8F225F940ED00557232 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,14 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				86E2F0141B4EE700002D66BB /* Reachability.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7BB8F025F940ED00557232 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA7BB8FC25F9410500557232 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,85 +373,6 @@
 			};
 			name = Release;
 		};
-		EA7BB8F925F940ED00557232 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G3A2KYKYBU;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Reachability/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Reachability;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EA7BB8FA25F940ED00557232 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = G3A2KYKYBU;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Reachability/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Reachability;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -548,15 +399,6 @@
 			buildConfigurations = (
 				86E2F0061B4EE3DE002D66BB /* Debug */,
 				86E2F0071B4EE3DE002D66BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA7BB8FB25F940ED00557232 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA7BB8F925F940ED00557232 /* Debug */,
-				EA7BB8FA25F940ED00557232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
