@@ -24,6 +24,20 @@ Once you have added the `.h/m` files to your project, simply:
 
 Boom, you're done.
 
+## Installation
+
+LWDrawboard is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'Reachability'
+```
+
+**Carthage**
+```ruby
+github "luowei/Reachability"
+```
+
 ## Examples
 
 ### Block Example
